@@ -13,7 +13,7 @@ class TestCents:
         (0, [0, 0, 0, 0]),
         (25, [0, 0, 0, 1]),
         (30, [0, 1, 0, 1]),
-        (41, [1, 0, 1, 1])
+        (41, [1, 1, 1, 1])
     ])
     def test_get_coin_combination(self,
                                   cents: int,
